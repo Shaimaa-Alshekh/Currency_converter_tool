@@ -7,10 +7,10 @@ convertForm.onsubmit=function(e){
     e.preventDefault();
 
     if(ex.selectedIndex == 0){
-        res=( amount.value ) *  3.7771;
+        res=( amount.value ) *  .27;
 
     }else if(ex.selectedIndex == 1){
-        res=( amount.value ) * 5.3274;
+        res=( amount.value ) * 0.19;
 
     }else{
         res= amount.value ;
